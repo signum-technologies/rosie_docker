@@ -45,4 +45,4 @@ make run_terminal_monitor
 
 The monitor will connect to the `rosie_app` and begin displaying measurements. To stop the monitor, press `Ctrl+C`.
 
-For more advanced usage, such as connecting to a `rosie_app` on a different IP address, see the [terminal monitor documentation](./terminal_monitor.md). The terminal monitor is also provided as an example program on how to connect to rosie_app and get the measurements for your purposes to use in your application environment.
+For more advanced usage, such as connecting to a `rosie_app` on a different IP address, see the [terminal monitor documentation](./terminal_monitor.md).
