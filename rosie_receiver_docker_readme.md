@@ -7,6 +7,18 @@ This document provides instructions on how to run the Rosie Receiver application
 - Docker is installed on your system.
 - You are on a Linux system with an X server (e.g., a standard desktop environment).
 
+## Easy Run with Make
+
+For convenience, a `Makefile` is provided which simplifies running the application. To pull the latest image, configure display access, and run the container, you can just run:
+
+```bash
+make run_rosie_receiver_docker
+```
+
+This single command will execute all the necessary steps for you.
+
+For more granular control, or if you prefer to run the commands manually, follow the steps below.
+
 ## Running the Application
 
 1.  **Pull the Docker Image**

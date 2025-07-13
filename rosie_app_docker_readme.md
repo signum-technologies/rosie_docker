@@ -9,6 +9,18 @@ This guide explains how to run the `rosie_app` using Docker. This is useful for 
 *   You must be on a Linux system with an X11 display server. This has not been tested thorougly on a mac on windows system.
 *   You need a rgb camera (a standard webcam will likely work) connected to your computer.
 
+## Easy Run with Make
+
+For convenience, a `Makefile` is provided which simplifies running the application. To pull the latest image and run the container, you can just run:
+
+```bash
+make run_rosie_app_docker
+```
+
+This single command will execute the necessary `docker pull` and `docker run` commands for you.
+
+For more granular control, or if you prefer to run the commands manually, follow the steps below.
+
 ## Running the Application
 
 Follow these steps to run the application.
